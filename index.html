@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <main>
+        <fieldset>
+            <header>
+            <h1>Envie uma mensagem preenchendo o formulário abaixo:
+            </h1>
+              </header>
+              <div class="formulários">
+                <form action="post">
+                    <label for="nome">Seu nome:</label> <br>
+                    <input type="text" name="nome" id="nome" placeholder="Seu Nome e Sobrenome"> <br> <br>
+                    <label for="fone">Seu telefone:</label> <br>
+                    <input type="text" name="fone" id="fone" placeholder="+55 (xx) 99999999"> <br> <br>
+                    <label for="email" name="email" id="email" >Seu E-mail:</label> <br>
+                    <input type="email" placeholder="meuemail@exemplo.com.br"> <br> <br>
+                </form>
+                <p>Deseja receber nossas novidades?</p>
+                <input type="radio" name="sim" id="sim">
+                <label for="sim">sim</label>
+                <input type="radio" name="nao" id="nao">
+                <label for="nao">não</label> <br> <br>
+              </div>
+              <div class="sua mensagem">
+                <label for="mensagem">Sua mensagem:</label> <br>
+                <textarea name="msg" rows="10" cols="30">Minha mensagem de exemplo!</textarea>
+              </div>
+        </fieldset>
+    </main>
+</body>
+</html>
